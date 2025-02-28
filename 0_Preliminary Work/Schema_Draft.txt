@@ -1,0 +1,69 @@
+_comment: "Field names preceded by _ are optional."
+_comment: "Every product in the same order is shipped togehter"
+_comment: "Each order is associated with one and only one address."
+
+
+**In orders collection**
+{
+	
+	Meta: {
+		SchemaVersion: 1
+		DocumentVersion: 1
+		Source: 
+	}
+	
+	ContactInfo:
+		{
+			Name: 
+			Email:
+			Phone:
+		}
+	
+	Address : 
+		{
+			Line_1:
+			_Line_2:
+			City: 
+			State:
+			Country:
+			Postal_Code:
+		}
+		
+	OrderInfo: {
+		Date: 
+		Total: 
+	} 
+	
+	Products : 
+		[
+			{
+				Name: 
+				Price: 
+				Quantity: 
+				_Description: 
+			}
+		]
+		
+	Shipping: 
+		{
+			Carrier: 
+			Service: 
+			Tracking_Number: 
+			Cost_To_Store: 
+		}
+		
+	_Return: 
+		[
+			{return: **Link to a different document** }
+			,
+			{return: **Link to a different document** }
+		]
+}
+
+In returns collection:
+{
+	Order:
+	Product: 
+	Quantity: 
+	Reason: 
+}
