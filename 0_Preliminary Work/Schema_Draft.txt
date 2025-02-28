@@ -52,17 +52,11 @@ _comment: "Each order is associated with one and only one address."
 			Cost_To_Store: 
 		}
 		
-	_Return: 
-		[
-			{return: **Link to a different document** }
-			,
-			{return: **Link to a different document** }
-		]
 }
 
 In returns collection:
 {
-	Order:
+	Order: **Contains a link to the Orders collection**
 	Product: 
 	Quantity: 
 	Reason: 
