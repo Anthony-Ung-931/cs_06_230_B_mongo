@@ -3,6 +3,30 @@ _comment: "Every product in the same order is shipped togehter"
 _comment: "Each order is associated with one and only one address."
 
 
+**
+	In customers collection
+	Application is responsible for making one-time copies
+		in the orders collection.
+**
+{
+	Name: 
+	Email:
+	Phone:
+}
+
+** 
+	In products collection 
+	Application will be responsible for making one-time copies into the
+		orders collection and returns collection.
+**
+{
+	Name: 
+	Price: 
+	Quantity: 
+	Category: 
+	_Description: 
+}
+
 **In orders collection**
 {
 	
@@ -40,7 +64,6 @@ _comment: "Each order is associated with one and only one address."
 				Name: 
 				Price: 
 				Quantity: 
-				_Description: 
 			}
 		]
 		
