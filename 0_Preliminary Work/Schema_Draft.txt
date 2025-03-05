@@ -29,7 +29,6 @@ _comment: "Each order is associated with one and only one address."
 
 **In orders collection**
 {
-	
 	Meta: {
 		SchemaVersion: 1
 		DocumentVersion: 1
