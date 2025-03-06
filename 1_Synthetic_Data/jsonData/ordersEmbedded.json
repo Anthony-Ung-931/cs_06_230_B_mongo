@@ -6,39 +6,58 @@
             "source": 1
         },
         "contactInfo": {
-            "name": "",
-            "email": "",
-            "phone": ""
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
         },
         "address": {
-            "line1": "",
-            "line_2": "",
-            "city": "",
-            "state": "",
-            "country": "",
-            "postal code": ""
+            "line1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal code": "08028"
         },
-        "OrderInfo": {
-            "date": "",
-            "total": ""
+        "orderInfo": {
+            "date": "2025-03-06",
+            "total": 118.07
         },
         "products": [
             {
-				"name": "a",
-				"price": "",
+                "name": "Cendrillon VHS",
+                "price": 19.50,
                 "quantity": 1
             },
             {
-				"name": "b",
-				"price": "",
+                "name": "Den Lille Havfrue VHS",
+                "price": 19.89,
+                "quantity": 1
+            },
+            {
+                "name": "Cenerentola VHS",
+                "price": 19.67,
+                "quantity": 1
+            },
+            {
+                "name": "Assepoester VHS",
+                "price": 19.90,
+                "quantity": 1
+            },
+            {
+                "name": "Kopciuszek VHS",
+                "price": 19.61,
+                "quantity": 1
+            },
+            {
+                "name": "Askepot VHS",
+                "price": 19.50,
                 "quantity": 1
             }
         ],
-        "Shipping": {
-            "Carrier": "",
-            "Service": "",
-            "Tracking_Number": "",
-            "Cost_To_Store": ""
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "standard",
+            "trackingNumber": "9999 9999 9999",
+            "costToStore": 5.00
         }
     }
 ]

@@ -5,7 +5,7 @@
             "documentVersion": 1,
             "source": 1
         },
-        "customer": "customer1",
+        "customer": {"$oid": "67ca040036369cfa6a666ea5"},
         "address": {
             "line1": "",
             "line_2": "",
