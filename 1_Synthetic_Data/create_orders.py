@@ -7,6 +7,13 @@ class ARGS:
     SAVE_CUSTOMERS = True
     SAVE_PRODUCTS = True
 
+class CONFIG:
+    NUM_ORDERS = 100
+
+class Meta:
+    SchemaVersion = 1
+    DocumentVersion = 1
+    Source = 'Typical order placed by customer.'
 
 '''
 Global variables
@@ -82,11 +89,34 @@ def read_csvs():
 '''
     Refer to the schema file for an example of what is needed for an order.
 '''
-def read_orders():
+def make_orders():
+    for _ in range(CONFIG.NUM_ORDERS):
+        # Populate meta from the class Meta
+        # Populate ContactInfo from a Customer selected at random
+        # Populate an address
+
+        '''
+            Populate OrderInfo as follows:
+                Date: Selected at random
+                Select products and quantities at random and then derive the total
+        '''
+
+        '''
+            Populate an array of products
+                Make sure the quantity is consistent with what we have for the total
+        '''
+
+        '''
+            Shipping
+                Select a shipper at random
+        '''
+
+        pass
+
     pass
 
 '''
-    This will populate 3 separate JSON files from the 3 global arrays..
+    This will populate 3 separate JSON files from the 3 global arrays.
 '''
 def build_json():
     pass
