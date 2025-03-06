@@ -93,6 +93,11 @@ def make_orders():
     for _ in range(CONFIG.NUM_ORDERS):
         # Populate meta from the class Meta
         # Populate ContactInfo from a Customer selected at random
+
+        # [1] Select products at random
+        # [2] Have a parallel array of quantities with a small chance of >1 quantity
+        # [3] Store the total, products, and quantities as variables.
+
         # Populate an address
 
         '''
