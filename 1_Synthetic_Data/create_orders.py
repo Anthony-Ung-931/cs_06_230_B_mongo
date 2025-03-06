@@ -49,82 +49,51 @@ class Order:
 def read_csvs():
     csv.register_dialect('piper', delimiter='|', quoting=csv.QUOTE_NONE)
 
-    with open('customers.csv', 'r') as csvfile:
+    with open(r'customers.csv', 'r') as csvfile:
         for row in csv.DictReader(csvfile, dialect='piper'):
-            print(row)
+            Name = row['name']
+            Email = row['email']
+            Phone = row['phone']
 
-    with open('products.csv', 'r') as csvfile:
-        for row in csv.DictReader(csvfile, dialect='piper'):
-            print(row)
-
-    
-
-    pass
-'''
-        csv.register_dialect('piper', delimiter='|', quoting=csv.QUOTE_NONE)
-        
-        with open('Products1.txt', 'r') as csvfile:
-            count = 0
+            customer = Customer\
+                (Name=Name, Email=Email, Phone=Phone)
             
-            for row in csv.DictReader(csvfile, dialect='piper'):
-                sku = int(row.get('SKU'))
-                product_name = row.get('Product Name')
-                product_type = row.get('itemType')
-                manufacturer = row.get('Manufacturer')
-                base_price = row.get('BasePrice')
+            customers.append(customer)
 
-                price = float(Decimal(base_price.strip('$')))
-                price = round(price * params.group.price_multiplier, 2)
+    with open(r'products.csv', 'r') as csvfile:
+        for row in csv.DictReader(csvfile, dialect='piper'):
+            Name = row['Name']
+            Price = round(float(row['Price']), 2)
+            Category = row['Category']
+            Manufacturer = row['Manufacturer']
 
-                current_product = Product(\
-                    p_name = product_name, \
-                    p_type = product_type, \
-                    sku = sku, 
-                    price = price
-                )
-                
-                db.execute_sql_values( \
-                        sql='insert into products values (?, ?, ?, ?, ?)',\
-                        values=(sku, product_name, product_type, manufacturer, base_price))
+            product = Product\
+                (Name=Name, Price=Price, Category=Category, Manufacturer=Manufacturer)
+            
+            products.append(product)
+    
+    for customer in customers:
+        print(f'{customer.Name} - {customer.Email} - {customer.Phone}')
 
-                match product_type:
-                    case 'Milk':
-                        Inventory.products['milk'].append(current_product)
-                    case 'Cereal':
-                        Inventory.products['cereal'].append(current_product)
-                    case 'Baby Food':
-                        Inventory.products['baby food'].append(current_product)
-                    case 'Diapers':
-                        Inventory.products['diapers'].append(current_product)
-                    case 'Bread':
-                        Inventory.products['bread'].append(current_product)
-                    case 'Peanut Butter':
-                        Inventory.products['peanut butter'].append(current_product)
-                    case 'Jelly/Jam':
-                        Inventory.products['jelly jam'].append(current_product)
-                    case _:
-                        Inventory.products['other'].append(current_product)
-                
-                count += 1
-                if count % 10000 == 0:
-                    db.commit()
-                    print(f"Committed {count} products")
-                
-            db.commit()
-            print(f"Committed {count} products")
-'''
-
+    for product in products:
+        print(f'{product.Name} - {product.Price} - {product.Category} - {product.Manufacturer}')
 
 
 '''
-    This will populate 3 separate JSON files from 3 separate arrays.
+    Refer to the schema file for an example of what is needed for an order.
+'''
+def read_orders():
+    pass
+
+'''
+    This will populate 3 separate JSON files from the 3 global arrays..
 '''
 def build_json():
     pass
 
 
 def run():
-    pass
+    read_csvs()
 
 
 run()
