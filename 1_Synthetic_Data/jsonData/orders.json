@@ -1,0 +1,38 @@
+[
+    {
+        "meta": {
+            "schemaVersion": 1,
+            "documentVersion": 1,
+            "source": 1
+        },
+        "customer": "customer1",
+        "address": {
+            "line1": "",
+            "line_2": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "postal code": ""
+        },
+        "OrderInfo": {
+            "date": "",
+            "total": ""
+        },
+        "products": [
+            {
+                "product": "product1",
+                "quantity": 1
+            },
+            {
+                "product": "product2",
+                "quantity": 1
+            }
+        ],
+        "Shipping": {
+            "Carrier": "",
+            "Service": "",
+            "Tracking_Number": "",
+            "Cost_To_Store": ""
+        }
+    }
+]

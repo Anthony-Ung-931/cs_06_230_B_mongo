@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Apple MacBook (M1)",
+        "price": 299.99,
+        "category": "Computers",
+        "manufacturer": "Apple"
+    },
+    {
+        "name": "Apple MacBook (M4)",
+        "price": 1299.99,
+        "category": "Computers",
+        "manufacturer": "Apple"
+    },
+    {
+        "name": "iPad Pro 13\" (M4)",
+        "price": 1099.99,
+        "category": "Tablets",
+        "manufacturer": "Apple"
+    },
+    {
+        "name": "iPad Air 11\" (M2)",
+        "price": 599.99,
+        "category": "Tablets",
+        "manufacturer": "Apple"
+    },
+    {
+        "name": "Lenovo Thinkpad P1 Gen 4",
+        "price": 599.99,
+        "category": "Computers",
+        "manufacturer": "Lenovo"
+    },
+    {
+        "name": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+        "price": 899.99,
+        "category": "Computers",
+        "manufacturer": "Lenovo"
+    },
+    {
+        "name": "Panasonic Multi-System VCR",
+        "price": 135.99,
+        "category": "Home Media - Used",
+        "manufacturer": "Panasonic"
+    },
+    {
+        "name": "A/V Cables",
+        "price": 5.99,
+        "category": "Home Media Cables"
+    },
+    {
+        "name": "Cendrillon VHS",
+        "price": 19.50,
+        "category": "VHS - Foreign",
+        "manufacturer": "Disney"
+    },
+    {
+        "name": "Den Lille Havfrue VHS",
+        "price": 19.89,
+        "category": "VHS - Foreign",
+        "manufacturer": "Disney"
+    },
+    {
+        "name": "Cenerentola VHS",
+        "price": 19.67,
+        "category": "VHS - Foreign",
+        "manufacturer": "Disney"
+    },
+    {
+        "name": "Assepoester VHS",
+        "price": 19.90,
+        "category": "VHS - Foreign",
+        "manufacturer": "Disney"
+    },
+    {
+        "name": "Kopciuszek VHS",
+        "price": 19.61,
+        "category": "VHS - Foreign",
+        "manufacturer": "Disney"
+    },
+    {
+        "name": "Askepot VHS",
+        "price": 19.50,
+        "category": "VHS - Foreign",
+        "manufacturer": "Disney"
+    }
+]

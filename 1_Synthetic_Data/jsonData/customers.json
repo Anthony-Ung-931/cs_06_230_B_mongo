@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Anthony Ung",
+        "email": "ungant67@students.rowan.edu",
+        "phone": "609-123-4567"
+    },
+    {
+        "name": "Cory Lillis",
+        "email": "lillis26@students.rowan.edu",
+        "phone": "609-345-6789"
+    },
+    {
+        "name": "Edward Burns",
+        "email": "burnse@gmail.com",
+        "phone": "856-123-4567"
+    },
+    {
+        "name": "Jack Myers",
+        "email": "myersjac@aol.com",
+        "phone": "609-234-5678"
+    },
+    {
+        "name": "Vasil Hnatyshin",
+        "email": "ukrainiandude@gmail.com",
+        "phone": "856-343-2345"
+    },
+    {
+        "name": "Kwame Morton",
+        "email": "mortonk@chclc.org",
+        "phone": "856-424-5600"
+    },
+    {
+        "name": "Patrick McKee",
+        "email": "mckee@yahoo.com",
+        "phone": "856-745-3649"
+    },
+    {
+        "name": "Paulette Rollin",
+        "email": "rollinp@rowan.edu",
+        "phone": "(1) 42.34.2555"
+    },
+    {
+        "name": "Irena Santor",
+        "email": "santori_pl@disney.pl",
+        "phone": "(26) 642-7555"
+    },
+    {
+        "name": "Loekie Landweer",
+        "email": "landweer@aol.nl",
+        "phone": "78.32.5555"
+    },
+    {
+        "name": "Lise Ringheim",
+        "email": "ringheim_lisa@aol.dk",
+        "phone": "31 12 3555"
+    },
+    {
+        "name": "Deddi Savagnone",
+        "email": "savagnoned@disney.it",
+        "phone": "(1) 42.34.2555"
+    }
+]

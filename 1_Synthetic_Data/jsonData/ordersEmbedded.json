@@ -1,0 +1,44 @@
+[
+    {
+        "meta": {
+            "schemaVersion": 1,
+            "documentVersion": 1,
+            "source": 1
+        },
+        "contactInfo": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        },
+        "address": {
+            "line1": "",
+            "line_2": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "postal code": ""
+        },
+        "OrderInfo": {
+            "date": "",
+            "total": ""
+        },
+        "products": [
+            {
+				"name": "a",
+				"price": "",
+                "quantity": 1
+            },
+            {
+				"name": "b",
+				"price": "",
+                "quantity": 1
+            }
+        ],
+        "Shipping": {
+            "Carrier": "",
+            "Service": "",
+            "Tracking_Number": "",
+            "Cost_To_Store": ""
+        }
+    }
+]
