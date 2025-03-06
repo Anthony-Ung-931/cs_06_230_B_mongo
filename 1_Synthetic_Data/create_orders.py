@@ -1,3 +1,5 @@
+import csv
+
 '''
 Pseudocode for order generation
 '''
@@ -15,13 +17,18 @@ orders = []
 
 
 class Customer:
-    def __init__(self, **kwargs):
-        pass
+    def __init__(self, Name, Email, Phone):
+        self.Name = Name
+        self.Email = Email
+        self.Phone = Phone
 
 
 class Product:
-    def __init__(self, **kwargs):
-        pass
+    def __init__(self, Name, Price, Category, Manufacturer=None):
+        self.Name = Name
+        self.Price = Price
+        self.Category = Category
+        self.Manufacturer = Manufacturer
 
 
 class Order:
@@ -40,6 +47,18 @@ class Order:
     My reading of CSV code from my parallel project is put here.
 '''
 def read_csvs():
+    csv.register_dialect('piper', delimiter='|', quoting=csv.QUOTE_NONE)
+
+    with open('customers.csv', 'r') as csvfile:
+        for row in csv.DictReader(csvfile, dialect='piper'):
+            print(row)
+
+    with open('products.csv', 'r') as csvfile:
+        for row in csv.DictReader(csvfile, dialect='piper'):
+            print(row)
+
+    
+
     pass
 '''
         csv.register_dialect('piper', delimiter='|', quoting=csv.QUOTE_NONE)
