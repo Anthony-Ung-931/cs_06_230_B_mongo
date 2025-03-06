@@ -91,7 +91,17 @@ def read_csvs():
 '''
 def make_orders():
     for _ in range(CONFIG.NUM_ORDERS):
+        order = {}
+
         # Populate meta from the class Meta
+        meta = {
+            'schemaVersion' : Meta.SchemaVersion,
+            'DocumentVersion' : Meta.DocumentVersion,
+            'Source' :  Meta.Source
+        }
+
+        order['meta'] = meta
+
         # Populate ContactInfo from a Customer selected at random
 
         # [1] Select products at random
