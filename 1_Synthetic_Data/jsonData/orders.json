@@ -1,15 +1,15 @@
 [
     {
         "meta": {
-            "schemaVersion": 1,
-            "documentVersion": 1,
+            "schema_version": 1,
+            "document_version": 1,
             "source": 1
         },
         
-        "ContactInfo": {
-			"Name": "", 
-			"Email": "", 
-			"Phone": ""
+        "contact_info": {
+			"name": "", 
+			"email": "", 
+			"phone": ""
 		},
 
         "address": {
