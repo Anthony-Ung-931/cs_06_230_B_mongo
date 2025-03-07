@@ -1,4 +1,6 @@
 import csv
+import random
+import json
 
 '''
 Pseudocode for order generation
@@ -28,6 +30,9 @@ class Customer:
         self.Name = Name
         self.Email = Email
         self.Phone = Phone
+    
+    def __str__(self):
+        return f'{self.Name}' '\n' f'{self.Email}' '\n' f'{self.Phone}' '\n'
 
 
 class Product:
@@ -79,11 +84,9 @@ def read_csvs():
             
             products.append(product)
     
-    for customer in customers:
-        print(f'{customer.Name} - {customer.Email} - {customer.Phone}')
-
-    for product in products:
-        print(f'{product.Name} - {product.Price} - {product.Category} - {product.Manufacturer}')
+    '''
+        No need to print these out anymore.
+    '''
 
 
 '''
@@ -95,20 +98,42 @@ def make_orders():
 
         # Populate meta from the class Meta
         meta = {
-            'schemaVersion' : Meta.SchemaVersion,
-            'DocumentVersion' : Meta.DocumentVersion,
-            'Source' :  Meta.Source
+            'schema_version' : Meta.SchemaVersion,
+            'document_version' : Meta.DocumentVersion,
+            'source' :  Meta.Source
         }
 
         order['meta'] = meta
 
         # Populate ContactInfo from a Customer selected at random
 
-        # [1] Select products at random
-        # [2] Have a parallel array of quantities with a small chance of >1 quantity
-        # [3] Store the total, products, and quantities as variables.
+        customer = random.choice(customers)
 
-        # Populate an address
+        contact_info = {
+            'name' : customer.Name,
+            'email' : customer.Email,
+            'phone' : customer.Phone
+        }
+
+        order['contact_info'] = contact_info
+
+        '''
+            TO DO:
+            Populate an address
+        '''
+
+
+        # [1] Select products at random
+        # [2] Have some mechanism to save duplicates.
+        # [3] Store the total, products, and quantities as variables
+        # [4] Stick them in the JSON
+        order_products = []
+
+        for _ in range(random.randint(1, 8)):
+            product = random.choice(products)
+            
+
+        print(json.dumps(obj=order, indent=4))
 
         '''
             Populate OrderInfo as follows:
@@ -134,11 +159,13 @@ def make_orders():
     This will populate 3 separate JSON files from the 3 global arrays.
 '''
 def build_json():
-    pass
+    print("TO DO: Build all 3 JSON files from the 3 global arrays")
 
 
 def run():
     read_csvs()
+    make_orders()
+    build_json()
 
 
 run()
