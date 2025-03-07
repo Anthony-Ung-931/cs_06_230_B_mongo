@@ -55,7 +55,7 @@ for(let o = 0; o < 3; o++)
         }
     };
     order.contactInfo = customers[rand(customers.length)];
-    const numberOfProducts = rand(10);
+    const numberOfProducts = rand(10) + 1;
     for(let p = 0; p < numberOfProducts; p++)
     {
         const product = products[rand(products.length)];
@@ -71,4 +71,5 @@ for(let o = 0; o < 3; o++)
     order.shipping.trackingNumber = generateTrackingNumber();
     orders.push(order);
 }
-console.log(JSON.stringify(orders));
+console.log(orders);
+//console.log(JSON.stringify(orders));
