@@ -5,7 +5,13 @@
             "documentVersion": 1,
             "source": 1
         },
-        "customer": {"$oid": "67ca040036369cfa6a666ea5"},
+        
+        "ContactInfo": {
+			"Name": "", 
+			"Email": "", 
+			"Phone": ""
+		},
+
         "address": {
             "line1": "",
             "line_2": "",
