@@ -53,6 +53,11 @@ function generateTrackingNumber()
 }
 
 
+function round_money(num) {
+    return Math.round(num*100)/100
+}
+
+
 let orders = [];
 
 for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
@@ -117,6 +122,8 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
         });
         order.order_info.total += product.price * quantity;
     }
+
+    order.order_info.total = round_money(order.order_info.total);
 
     order.shipping.carrier = carriers[rand(carriers.length)];
 
