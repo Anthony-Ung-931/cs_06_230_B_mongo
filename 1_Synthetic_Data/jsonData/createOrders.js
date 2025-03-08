@@ -50,7 +50,7 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
             source_comment: "Typical Order Placed By Customer"
         },
 
-        contactInfo: {
+        contact_info: {
 
         },
 
@@ -77,7 +77,7 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
         }
     };
     
-    order.contactInfo = customers[rand(customers.length)];
+    order.contact_info = customers[rand(customers.length)];
     const numberOfProducts = rand(10) + 1;
     for(let p = 0; p < numberOfProducts; p++)
     {
