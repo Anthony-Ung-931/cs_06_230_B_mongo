@@ -114,6 +114,7 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
         order.products.push({
             product: product.name,
             item_total : product.price,
+            item_category : product.category,
             quantity: quantity
         });
         order.order_info.total += product.price * quantity;
