@@ -83,7 +83,7 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
 
         order_info: {
             date: "2025-03-07",
-            total: 0
+            order_total: 0
         },
 
         products: [],
@@ -116,14 +116,14 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
         quantity = CONFIG.QUANTITIES[rand(CONFIG.QUANTITIES.length)];
         order.products.push({
             product: product.name,
-            item_total : product.price,
+            item_price : product.price,
             item_category : product.category,
             quantity: quantity
         });
-        order.order_info.total += product.price * quantity;
+        order.order_info.order_total += product.price * quantity;
     }
 
-    order.order_info.total = round_money(order.order_info.total);
+    order.order_info.order_total = round_money(order.order_info.order_total);
 
     order.shipping.carrier = carriers[rand(carriers.length)];
 
