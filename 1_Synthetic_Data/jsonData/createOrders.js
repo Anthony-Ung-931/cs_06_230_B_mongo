@@ -17,16 +17,20 @@ const CONFIG = {
     SERVICE_SELECTION : [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2]
 }
 
+
 const customers = require("./customers.json");
 const products = require("./products.json");
 
+
 const carriers = [ "FedEx", "UPS", "USPS", "DHL" ];
 const services = [ ["Economy", 5.00], ["Standard", 12.50], ["Priority", 35.50] ];
+
 
 function rand(max)
 {
     return Math.floor(Math.random() * Math.floor(max));
 }
+
 
 function generateTrackingNumber()
 {
@@ -48,7 +52,9 @@ function generateTrackingNumber()
     return trackingNumber;
 }
 
+
 let orders = [];
+
 for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
 {
     let order = {
@@ -86,9 +92,23 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
     };
     
     order.contact_info = customers[rand(customers.length)];
-    const numberOfProducts = rand(10) + 1;
-    for(let p = 0; p < numberOfProducts; p++)
+
+    const num_products = rand(10) + 1;
+    
+    for(let p = 0; p < num_products; p++)
     {
+        /*
+            TODO:
+                Place the products in a set.
+                This way, the same product is not selected more than once.
+                
+                It is okay to have num_products not represent the actual
+                    number of products purchased.
+
+                Then, place this logic to push product and quantities into a
+                    different for loop below this one.
+        */
+
         const product = products[rand(products.length)];
         const quantity = CONFIG.QUANTITIES[rand(CONFIG.QUANTITIES.length)];
         order.products.push({
