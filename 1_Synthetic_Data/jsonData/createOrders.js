@@ -5,13 +5,15 @@
 */
 const CONFIG = {
     NUM_ORDERS : 100,
+    QUANTITIES : [1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 5, 8],
+    SERVICE_SELECTION : [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2]
 }
 
 const customers = require("./customers.json");
 const products = require("./products.json");
 
 const carriers = [ "FedEx", "UPS", "USPS", "DHL" ];
-const services = [ "Priority", "Standard", "Economy" ];
+const services = [ ["Economy", 5.00], ["Standard", 12.50], ["Priority", 35.50] ];
 
 function rand(max)
 {
@@ -43,9 +45,9 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
 {
     let order = {
         meta: {
-            schemaVersion: 1,
-            documentVersion: 1,
-            source: "Typical Order Placed By Customer"
+            schema_version: 1,
+            document_version: 1,
+            source_comment: "Typical Order Placed By Customer"
         },
 
         contactInfo: {
@@ -53,14 +55,14 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
         },
 
         address: {
-            line1: "123 Mullica Hill Road",
+            line_1: "123 Mullica Hill Road",
             city: "Glassboro",
             state: "NJ",
             country: "United States",
-            postalCode: "08028"
+            postal_code: "08028"
         },
 
-        orderInfo: {
+        order_info: {
             date: "2025-03-07",
             total: 0
         },
@@ -70,8 +72,8 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
         shipping: {
             carrier: "",
             service: "",
-            trackingNumber: "",
-            costToStore: 5.00
+            tracking_number: "",
+            cost_to_store: 0.00
         }
     };
     
@@ -80,17 +82,22 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
     for(let p = 0; p < numberOfProducts; p++)
     {
         const product = products[rand(products.length)];
-        const quantity = rand(10) + 1;
+        const quantity = CONFIG.QUANTITIES[rand(CONFIG.QUANTITIES.length)];
         order.products.push({
             product: product.name,
+            item_total : product.price,
             quantity: quantity
         });
-        order.orderInfo.total += product.price * quantity;
+        order.order_info.total += product.price * quantity;
     }
 
     order.shipping.carrier = carriers[rand(carriers.length)];
-    order.shipping.service = services[rand(services.length)];
-    order.shipping.trackingNumber = generateTrackingNumber();
+
+    services_index = CONFIG.SERVICE_SELECTION[rand(CONFIG.SERVICE_SELECTION.length)]
+
+    order.shipping.service = services[services_index][0];
+    order.shipping.cost_to_store = services[services_index][1];
+    order.shipping.tracking_number = generateTrackingNumber();
     orders.push(order);
 }
 //console.log(orders);
