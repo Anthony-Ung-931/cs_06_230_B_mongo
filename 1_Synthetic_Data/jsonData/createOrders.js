@@ -1,11 +1,23 @@
+/* 
+    This value is used to control the number of orders.
+    If we need more data to query against, we can simply
+        increase this number.
+*/
+const CONFIG = {
+    NUM_ORDERS : 100,
+}
+
 const customers = require("./customers.json");
 const products = require("./products.json");
+
 const carriers = [ "FedEx", "UPS", "USPS", "DHL" ];
 const services = [ "Priority", "Standard", "Economy" ];
+
 function rand(max)
 {
     return Math.floor(Math.random() * Math.floor(max));
 }
+
 function generateTrackingNumber()
 {
     let trackingNumber = "";
@@ -25,16 +37,21 @@ function generateTrackingNumber()
     }
     return trackingNumber;
 }
+
 let orders = [];
-for(let o = 0; o < 3; o++)
+for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
 {
     let order = {
         meta: {
             schemaVersion: 1,
             documentVersion: 1,
-            source: 1
+            source: "Typical Order Placed By Customer"
         },
-        contactInfo: {},
+
+        contactInfo: {
+
+        },
+
         address: {
             line1: "123 Mullica Hill Road",
             city: "Glassboro",
@@ -42,11 +59,14 @@ for(let o = 0; o < 3; o++)
             country: "United States",
             postalCode: "08028"
         },
+
         orderInfo: {
             date: "2025-03-07",
             total: 0
         },
+
         products: [],
+
         shipping: {
             carrier: "",
             service: "",
@@ -54,6 +74,7 @@ for(let o = 0; o < 3; o++)
             costToStore: 5.00
         }
     };
+    
     order.contactInfo = customers[rand(customers.length)];
     const numberOfProducts = rand(10) + 1;
     for(let p = 0; p < numberOfProducts; p++)
@@ -66,10 +87,11 @@ for(let o = 0; o < 3; o++)
         });
         order.orderInfo.total += product.price * quantity;
     }
+
     order.shipping.carrier = carriers[rand(carriers.length)];
     order.shipping.service = services[rand(services.length)];
     order.shipping.trackingNumber = generateTrackingNumber();
     orders.push(order);
 }
-console.log(orders);
-//console.log(JSON.stringify(orders));
+//console.log(orders);
+console.log(JSON.stringify(orders, null, 4));
