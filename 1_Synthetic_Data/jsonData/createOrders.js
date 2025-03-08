@@ -135,4 +135,13 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
     orders.push(order);
 }
 //console.log(orders);
-console.log(JSON.stringify(orders, null, 4));
+json_data = JSON.stringify(orders, null, 4)
+
+const fs = require('fs');
+fs.writeFile('orders_generated.json', json_data, (err) => {
+    if (err) {
+        console.error('Error writing to file:', err);
+    } else {
+        console.log(`Successfully wrote orders to file`);
+    }
+});

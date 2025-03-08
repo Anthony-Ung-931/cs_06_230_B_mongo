@@ -1,0 +1,5610 @@
+[
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 25.88
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "6590 6918 1637",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 7301.92
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "5310 8786 4380",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3454.14
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 2
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "5802 2342 0321",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1919.48
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "1216 4240 9202",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1299.99
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "4974 0980 9013",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 10838.97
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "8521 5285 2322",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 13343.93
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 3
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 2
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "3780 2020 9144",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1519.47
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "8683 0323 3821",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 19.67
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "1504 7830 3786",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5099.94
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "3119 5477 4001",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1586.9
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 8
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "4308 5532 5620",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3999.41
+        },
+        "products": [
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 5
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "4632 7796 0944",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 6411.91
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 2
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "8497 3089 7288",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Kwame Morton",
+            "email": "mortonk@chclc.org",
+            "phone": "856-424-5600"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 6170.93
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "6834 8472 1470",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 6364.69
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "0589 4848 5639",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3005.9
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "4586 2322 6656",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3045.35
+        },
+        "products": [
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "5096 8735 0151",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 13725.73
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "3296 7428 4782",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 19.89
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "8113 2868 4656",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1764.92
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "1445 3975 7373",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 117.95
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "9327 6290 3178",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Edward Burns",
+            "email": "burnse@gmail.com",
+            "phone": "856-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2681.73
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "8716 7431 3242",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Kwame Morton",
+            "email": "mortonk@chclc.org",
+            "phone": "856-424-5600"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 98.05
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "7836 0847 0998",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 949.29
+        },
+        "products": [
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 3
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "1798 9412 1075",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2205.95
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "5569 5478 4169",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1573.66
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "9523 9248 6121",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 7045.7
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "8155 3458 6829",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 8676.41
+        },
+        "products": [
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Priority",
+            "tracking_number": "8142 4113 8268",
+            "cost_to_store": 35.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Cory Lillis",
+            "email": "lillis26@students.rowan.edu",
+            "phone": "609-345-6789"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 19.5
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "1748 8289 2849",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 4145.17
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "1473 2992 5348",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 319.6
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Standard",
+            "tracking_number": "8636 9118 2411",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 6215.37
+        },
+        "products": [
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 8
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 8
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "8243 7088 6777",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1191.84
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 2
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "3547 2798 0752",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 9548.55
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 5
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 8
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "7975 7181 0148",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 7379.1
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Standard",
+            "tracking_number": "6736 8628 0110",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1485.07
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "3179 8985 5557",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 9669.06
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 8
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 2
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "1778 5302 4175",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 10138.99
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "2719 4175 3029",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 599.99
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "7676 2748 4863",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 599.99
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "0559 6706 4228",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2591.95
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "3597 1959 7555",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2104.75
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "3746 7097 9536",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1671.96
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "8877 0992 6567",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 45.49
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Standard",
+            "tracking_number": "4197 5673 2064",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 19.61
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "5872 0267 7455",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 919.88
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "5007 6059 5480",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 639.49
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Standard",
+            "tracking_number": "5967 5562 2836",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 6359.1
+        },
+        "products": [
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "6279 6849 8186",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 25.88
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "1431 4728 4766",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1299.99
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "3549 7321 2513",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3699.05
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "8170 6421 7312",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 12182.18
+        },
+        "products": [
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 5
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "8178 8533 9348",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Edward Burns",
+            "email": "burnse@gmail.com",
+            "phone": "856-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 639.33
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "6930 9588 3836",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 777.45
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "4266 6444 1183",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2258.75
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "5808 8317 3621",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 12525.38
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Standard",
+            "tracking_number": "2304 7354 3101",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5183.43
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "0760 0983 4362",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 8695.19
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 8
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "8748 7708 2009",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 4622.86
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 8
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 2
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Priority",
+            "tracking_number": "1302 7774 2569",
+            "cost_to_store": 35.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 39.79
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Priority",
+            "tracking_number": "3244 8976 9894",
+            "cost_to_store": 35.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Kwame Morton",
+            "email": "mortonk@chclc.org",
+            "phone": "856-424-5600"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3945.45
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "8196 9239 6687",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5278.72
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 8
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "2678 9732 8161",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 155.6
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "2330 6436 6830",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 319.89
+        },
+        "products": [
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "8544 4578 9916",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 9878.48
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "5396 6913 5723",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 617.96
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "7937 1023 0100",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3086.67
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "7653 8123 1458",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2573.78
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 3
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Standard",
+            "tracking_number": "4692 0491 1592",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2539.47
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "7426 4907 4426",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5719.52
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 8
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "5342 6810 9317",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Kwame Morton",
+            "email": "mortonk@chclc.org",
+            "phone": "856-424-5600"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3431.44
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 2
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "9429 0156 7875",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Cory Lillis",
+            "email": "lillis26@students.rowan.edu",
+            "phone": "609-345-6789"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1134.31
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "6446 9010 2221",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Jack Myers",
+            "email": "myersjac@aol.com",
+            "phone": "609-234-5678"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 19.9
+        },
+        "products": [
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "2115 1551 7558",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3959.64
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "5737 1809 7960",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Kwame Morton",
+            "email": "mortonk@chclc.org",
+            "phone": "856-424-5600"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 319.88
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "3183 6217 1569",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2045.22
+        },
+        "products": [
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 2
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 3
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "8257 2880 9550",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5.99
+        },
+        "products": [
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "8398 0509 6427",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Lise Ringheim",
+            "email": "ringheim_lisa@aol.dk",
+            "phone": "31 12 3555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2677.97
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "9236 2864 6474",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2314.45
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "5443 5221 5617",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5598.3
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Standard",
+            "tracking_number": "9797 0651 3679",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 939.1
+        },
+        "products": [
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "7316 8265 7928",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2337.13
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "6680 1927 9904",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2978.35
+        },
+        "products": [
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Standard",
+            "tracking_number": "0622 2540 5847",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 39.34
+        },
+        "products": [
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "0815 3480 4993",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 4799.92
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 8
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "6735 2829 3955",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2157.98
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "5463 0239 6236",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Anthony Ung",
+            "email": "ungant67@students.rowan.edu",
+            "phone": "609-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 12613.78
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 5
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 8
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 3
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "9256 9028 8997",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3117.84
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Standard",
+            "tracking_number": "4110 9758 5225",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 5577.95
+        },
+        "products": [
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "1221 4457 6726",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Edward Burns",
+            "email": "burnse@gmail.com",
+            "phone": "856-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 45.39
+        },
+        "products": [
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "4686 7598 6794",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Deddi Savagnone",
+            "email": "savagnoned@disney.it",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 9918.92
+        },
+        "products": [
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 3
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 5
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "3145 9000 0777",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Paulette Rollin",
+            "email": "rollinp@rowan.edu",
+            "phone": "(1) 42.34.2555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 1766.3
+        },
+        "products": [
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 8
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 3
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "0697 4377 8364",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 4817.33
+        },
+        "products": [
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 2
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 3
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "FedEx",
+            "service": "Economy",
+            "tracking_number": "8544 2919 7961",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Cory Lillis",
+            "email": "lillis26@students.rowan.edu",
+            "phone": "609-345-6789"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3126.84
+        },
+        "products": [
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Den Lille Havfrue VHS",
+                "item_price": 19.89,
+                "item_category": "VHS - Foreign",
+                "quantity": 2
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 8
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "6219 7116 4971",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Edward Burns",
+            "email": "burnse@gmail.com",
+            "phone": "856-123-4567"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 899.99
+        },
+        "products": [
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "4402 5241 9041",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Vasil Hnatyshin",
+            "email": "ukrainiandude@gmail.com",
+            "phone": "856-343-2345"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 599.99
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "4583 7836 7369",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Loekie Landweer",
+            "email": "landweer@aol.nl",
+            "phone": "78.32.5555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 241.48
+        },
+        "products": [
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "UPS",
+            "service": "Economy",
+            "tracking_number": "2260 5091 7691",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Cory Lillis",
+            "email": "lillis26@students.rowan.edu",
+            "phone": "609-345-6789"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 3738.63
+        },
+        "products": [
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 2
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 5
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Standard",
+            "tracking_number": "1297 2648 3065",
+            "cost_to_store": 12.5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Patrick McKee",
+            "email": "mckee@yahoo.com",
+            "phone": "856-745-3649"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 2485.58
+        },
+        "products": [
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Panasonic Multi-System VCR",
+                "item_price": 135.99,
+                "item_category": "Home Media - Used",
+                "quantity": 1
+            },
+            {
+                "product": "A/V Cables",
+                "item_price": 5.99,
+                "item_category": "Home Media Cables",
+                "quantity": 5
+            },
+            {
+                "product": "Cenerentola VHS",
+                "item_price": 19.67,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P1 Gen 4",
+                "item_price": 599.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "DHL",
+            "service": "Economy",
+            "tracking_number": "3238 6053 9606",
+            "cost_to_store": 5
+        }
+    },
+    {
+        "meta": {
+            "schema_version": 1,
+            "document_version": 1,
+            "source_comment": "Typical Order Placed By Customer"
+        },
+        "contact_info": {
+            "name": "Irena Santor",
+            "email": "santori_pl@disney.pl",
+            "phone": "(26) 642-7555"
+        },
+        "address": {
+            "line_1": "123 Mullica Hill Road",
+            "city": "Glassboro",
+            "state": "NJ",
+            "country": "United States",
+            "postal_code": "08028"
+        },
+        "order_info": {
+            "date": "2025-03-07",
+            "order_total": 4414.96
+        },
+        "products": [
+            {
+                "product": "Apple MacBook (M4)",
+                "item_price": 1299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Lenovo Thinkpad P14s Gen 5 (AMD)",
+                "item_price": 899.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "Askepot VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 8
+            },
+            {
+                "product": "iPad Air 11 (M2)",
+                "item_price": 599.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Apple MacBook (M1)",
+                "item_price": 299.99,
+                "item_category": "Computers",
+                "quantity": 1
+            },
+            {
+                "product": "iPad Pro 13 (M4)",
+                "item_price": 1099.99,
+                "item_category": "Tablets",
+                "quantity": 1
+            },
+            {
+                "product": "Kopciuszek VHS",
+                "item_price": 19.61,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Assepoester VHS",
+                "item_price": 19.9,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            },
+            {
+                "product": "Cendrillon VHS",
+                "item_price": 19.5,
+                "item_category": "VHS - Foreign",
+                "quantity": 1
+            }
+        ],
+        "shipping": {
+            "carrier": "USPS",
+            "service": "Economy",
+            "tracking_number": "2287 5647 5972",
+            "cost_to_store": 5
+        }
+    }
+]
