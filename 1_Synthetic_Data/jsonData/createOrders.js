@@ -1,7 +1,15 @@
 /* 
-    This value is used to control the number of orders.
-    If we need more data to query against, we can simply
-        increase this number.
+    NUM_ORDERS:
+        This value is used to control the number of orders.
+        If we need more data to query against, we can simply
+            increase this number.
+    
+    Quantities:
+        Currently biased so that most customers purchase 1
+            of any selected item.
+    
+    SERVICE_SELECTION:
+        Biased so that most customers have free shipping.
 */
 const CONFIG = {
     NUM_ORDERS : 100,
