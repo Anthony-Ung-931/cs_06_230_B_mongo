@@ -95,22 +95,20 @@ for(let o = 0; o < CONFIG.NUM_ORDERS; o++)
 
     const num_products = rand(10) + 1;
     
+    let products_set = new Set()
+
     for(let p = 0; p < num_products; p++)
     {
-        /*
-            TODO:
-                Place the products in a set.
-                This way, the same product is not selected more than once.
-                
-                It is okay to have num_products not represent the actual
-                    number of products purchased.
+        index = rand(products.length)
+        current_product = products[index]
+        if(!(products_set.has(current_product))) {
+            products_set.add(current_product)
+        }
+    }
 
-                Then, place this logic to push product and quantities into a
-                    different for loop below this one.
-        */
-
-        const product = products[rand(products.length)];
-        const quantity = CONFIG.QUANTITIES[rand(CONFIG.QUANTITIES.length)];
+    for(let product of products_set)
+    {
+        quantity = CONFIG.QUANTITIES[rand(CONFIG.QUANTITIES.length)];
         order.products.push({
             product: product.name,
             item_total : product.price,
