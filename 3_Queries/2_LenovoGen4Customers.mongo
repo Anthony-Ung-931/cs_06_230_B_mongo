@@ -25,4 +25,4 @@ db.orders.aggregate([
             phone: { $first: "$customer_details.phone" }
         }
     }
-]);
+]).pretty();

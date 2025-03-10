@@ -9,4 +9,4 @@ db.orders.aggregate([
     {
         $count: "num_customers"
     }
-]);
+]).pretty();

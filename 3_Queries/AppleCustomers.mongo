@@ -32,4 +32,4 @@ db.orders.aggregate([
             phone: "$customer_details.phone"
         }
     }
-]);
+]).pretty();
