@@ -1,2 +1,2 @@
 use SPRING-02630-GROUP1;
-db.customers.find().limit(3).pretty()
+db.customers.find().sort({ "name": 1 }).limit(3).pretty()
