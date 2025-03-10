@@ -1,0 +1,2 @@
+use SPRING-02630-GROUP1;
+db.customers.find().limit(3).pretty()
