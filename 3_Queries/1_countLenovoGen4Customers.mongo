@@ -1,0 +1,10 @@
+db.orders.aggregate([
+    {
+        $match: {
+            "products.product": "Lenovo Thinkpad P1 Gen 4"
+        }
+    },
+    {
+        $count: "num_customers"
+    }
+]);

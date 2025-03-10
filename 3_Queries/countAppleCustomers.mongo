@@ -1,0 +1,29 @@
+db.orders.aggregate([
+    {
+        $lookup: {
+            from: "products",
+            localField: "products.product",
+            foreignField: "name",
+            as: "product_details"
+        }
+    },
+    {
+        $match: {
+            "product_details.manufacturer": "Apple"
+        }
+    },
+    {
+        $lookup: {
+            from: "customers",
+            localField: "contact_info.name",
+            foreignField: "name",
+            as: "customer_details"
+        }
+    },
+    {
+        $unwind: "$customer_details"
+    },
+    {
+        $count: "num_customers"
+    }
+]);
