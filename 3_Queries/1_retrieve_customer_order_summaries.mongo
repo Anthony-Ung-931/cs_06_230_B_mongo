@@ -1,0 +1,14 @@
+use SPRING-02630-GROUP1;
+
+(
+    db.orders.find({
+        "contact_info.name" : "Anthony Ung"
+    }
+    ,
+    {
+        "contact_info.name" : 1,
+        "order_info" : 1
+    })
+    .sort({"order_info.date" : -1})
+    .pretty()
+);
