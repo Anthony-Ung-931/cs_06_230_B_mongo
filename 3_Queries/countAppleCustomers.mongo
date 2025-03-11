@@ -25,6 +25,14 @@ db.orders.aggregate([
         $unwind: "$customer_details"
     },
     {
+        $group: {
+            _id: "$customer_details._id",
+            name: { $first: "$customer_details.name" },
+            email: { $first: "$customer_details.email" },
+            phone: { $first: "$customer_details.phone" }
+        }
+    },
+    {
         $count: "num_customers"
     }
 ]).pretty();
