@@ -34,10 +34,12 @@ use SPRING-02630-GROUP1;
         {
             $replaceRoot: { newRoot: "$customer" }
         },
-            {
+        {
             $project: {
                 _id: 1,
-                name: 1
+                name: 1,
+                email: 1,
+                phone: 1
             }
         }
     ])
