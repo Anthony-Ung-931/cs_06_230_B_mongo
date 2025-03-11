@@ -1,0 +1,17 @@
+use SPRING-02630-GROUP1;
+
+(
+    db.products.aggregate([
+        {
+            $match:
+            {
+                $and: [
+                    { "price" : {$gte: 19} },
+                    { "price" : {$lte: 20} }
+                ]
+            }
+        }
+        ,
+        {$sample: { size: 3 }}
+    ])
+);
