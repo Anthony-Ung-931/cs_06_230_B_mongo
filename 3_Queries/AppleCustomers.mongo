@@ -16,8 +16,8 @@ use SPRING-02630-GROUP1;
     {
         $lookup: {
             from: "customers",
-            localField: "contact_info.email",
-            foreignField: "email",
+            localField: "contact_info.name",
+            foreignField: "name",
             as: "customer_details"
         }
     },
