@@ -1,5 +1,5 @@
 use SPRING-02630-GROUP1;
-db.orders.aggregate([
+(db.orders.aggregate([
     {
         $lookup: {
             from: "products",
@@ -25,11 +25,11 @@ db.orders.aggregate([
         $unwind: "$customer_details"
     },
     {
-        $project: {
+        $group: {
             _id: "$customer_details._id",
-            name: "$customer_details.name",
-            email: "$customer_details.email",
-            phone: "$customer_details.phone"
+            name: { $first: "$customer_details.name" },
+            email: { $first: "$customer_details.email" },
+            phone: { $first: "$customer_details.phone" }
         }
     }
-]).pretty();
+])).pretty();
