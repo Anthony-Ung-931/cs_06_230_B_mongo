@@ -1,0 +1,14 @@
+use SPRING-02630-GROUP1;
+
+(
+    db.products.aggregate([
+        {
+            $match:
+            {   
+                "name" : {$regex: "VHS"}
+            }
+        }
+        ,
+        {$sample: { size: 3 }}
+    ])
+);
