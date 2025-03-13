@@ -11,13 +11,7 @@ db.orders.aggregate([
     {
         $group: {
             _id: "$customer_details._id",
-            total_lenovo_purchases: { $sum: "$products.quantity" }
-        }
-    },
-    {
-        $group: {
-            _id: null,
-            total_lenovo_sold: { $sum: "$total_lenovo_purchases" },
+            total_lenovo_sold: { $sum: "$products.quantity" },
             num_lenovo_customers: { $sum: 1 }
         }
     },
