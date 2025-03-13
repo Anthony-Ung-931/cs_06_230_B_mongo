@@ -29,7 +29,8 @@ use SPRING-02630-GROUP1;
             _id: "$customer_details._id",
             name: { $first: "$customer_details.name" },
             email: { $first: "$customer_details.email" },
-            phone: { $first: "$customer_details.phone" }
+            phone: { $first: "$customer_details.phone" },
+            order_total: {$sum: "$order_info.order_total"}
         }
     }
 ])).pretty();
