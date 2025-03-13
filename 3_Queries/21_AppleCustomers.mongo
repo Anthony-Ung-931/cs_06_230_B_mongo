@@ -32,5 +32,11 @@ use SPRING-02630-GROUP1;
             phone: { $first: "$customer_details.phone" },
             order_total: {$sum: "$order_info.order_total"}
         }
+    },
+    {
+        $sort: {"order_total": -1}
+    },
+    {
+        $limit: 3
     }
 ])).pretty();
