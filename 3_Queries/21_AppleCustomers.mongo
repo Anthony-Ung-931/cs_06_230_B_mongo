@@ -14,22 +14,12 @@ use SPRING-02630-GROUP1;
         }
     },
     {
-        $lookup: {
-            from: "customers",
-            localField: "contact_info.name",
-            foreignField: "name",
-            as: "customer_details"
-        }
-    },
-    {
-        $unwind: "$customer_details"
-    },
-    {
         $group: {
-            _id: "$customer_details._id",
-            name: { $first: "$customer_details.name" },
-            email: { $first: "$customer_details.email" },
-            phone: { $first: "$customer_details.phone" },
+			_id: {
+				"name": "$contact_info.name",
+				"email": "$contact_info.email",
+				"phone": "$contact_info.phone"
+			},
             order_total: {$sum: "$order_info.order_total"}
         }
     },
