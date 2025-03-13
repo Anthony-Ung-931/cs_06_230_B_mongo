@@ -31,7 +31,7 @@ use SPRING-02630-GROUP1;
         }
     },
     {
-        $sort: {"order_total": -1}
+        $sort: {"disney_subtotal": -1}
     },
     {
         $limit: 3
