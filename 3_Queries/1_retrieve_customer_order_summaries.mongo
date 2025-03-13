@@ -9,6 +9,9 @@ use SPRING-02630-GROUP1;
         "contact_info.name" : 1,
         "order_info" : 1
     })
-    .sort({"order_info.date" : -1})
+    .sort({
+        "order_info.date" : -1,
+        "order_info.order_total" : -1
+    })
     .pretty()
 );
