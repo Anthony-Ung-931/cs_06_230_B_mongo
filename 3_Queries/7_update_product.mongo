@@ -1,0 +1,21 @@
+use SPRING-02630-GROUP1;
+
+db.products.updateOne(
+    {
+        name: "Apple MacBook (M4)"
+    },
+    {
+        $inc: {
+            price: -0.01
+        }
+    }
+);
+db.products.find(
+    {
+        name: "Apple MacBook (M4)"
+        },
+    {
+        _id: 0,
+        price: 1
+    }
+);
