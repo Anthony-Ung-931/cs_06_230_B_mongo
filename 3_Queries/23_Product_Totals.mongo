@@ -1,0 +1,39 @@
+use SPRING-02630-GROUP1;
+(db.orders.aggregate([
+    {
+        $unwind: "$products"
+    },
+    {
+        $lookup: {
+            from: "products",
+            localField: "products.product",
+            foreignField: "name",
+            as: "product_details"
+        }
+    },
+    {
+        $match: {
+            "product_details.manufacturer": "Disney"
+        }
+    },
+    {
+        $group: {
+			_id: {
+				"name": "$contact_info.name",
+				"email": "$contact_info.email",
+				"phone": "$contact_info.phone"
+			},
+            disney_subtotal: {
+                $sum: {
+                    $multiply: ["$products.item_price", "$products.quantity"]
+                }
+            }
+        }
+    },
+    {
+        $sort: {"order_total": -1}
+    },
+    {
+        $limit: 3
+    }
+])).pretty();
