@@ -1,0 +1,24 @@
+use SPRING-02630-GROUP1;
+
+(
+    db.orders.aggregate([
+        {
+            $match: {
+                "contact_info.name" : {
+                    $in: ['Anthony Ung', 'Cory Lillis', 'Paulette Rollin']
+                }
+            }
+        }
+        ,
+        {
+            $group: {
+                name: { $first: "$customer_details.name" },
+                email: { $first: "$customer_details.email" },
+                phone: { $first: "$customer_details.phone" },
+                average_order_value: {
+                    $avg : "order_info.order_total"
+                }
+            }
+        }
+    ]).pretty()
+);
