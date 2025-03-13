@@ -6,7 +6,7 @@ db.products.updateOne(
     },
     {
         $inc: {
-            price: -0.01
+            price: -300.00
         }
     }
 );

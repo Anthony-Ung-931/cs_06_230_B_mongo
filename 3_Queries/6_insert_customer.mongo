@@ -1,7 +1,7 @@
 use SPRING-02630-GROUP1;
 
 db.customers.insertOne({
-    name: "David Kniaz",
-    email: "kniaz@rowan.edu",
+    name: "Annie Jessen",
+    email: "jessen55@rowan.edu",
     phone: "555-555-5555"
 });
